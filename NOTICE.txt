@@ -1,0 +1,16 @@
+frplus 本体のライセンス: GNU General Public License v3 (LICENSE)
+
+frplus に同梱しているもの、インストール時に取得するもの
+
+Freerouting (freerouting/dev/*.jar)
+  https://github.com/freerouting/freerouting
+  ライセンス: GNU General Public License v3
+  同梱の jar は master ブランチの 01db81c (2026-11-13) をそのままビルドしたもの。
+  変更点は build.gradle の Java toolchain の指定 (25 → 26) だけで、プログラムには手を入れていない。
+  ソースコードは上記リポジトリの該当コミットから取得できる。
+
+Eclipse Temurin JRE (インストール時に取得して jre/ に展開)
+  https://adoptium.net/
+  ライセンス: GPLv2 with Classpath Exception
+
+frplus は Freerouting と Java を別プロセスとして起動するだけで、リンクはしていない。

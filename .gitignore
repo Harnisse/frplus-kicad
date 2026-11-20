@@ -1,0 +1,16 @@
+# ソースだけを管理する。基板データ・実験結果・jar・Freerouting のソースは入れない
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/NOTICE.txt
+!/LICENSE
+!/install.bat
+!/install.ps1
+!/make_package.py
+!/frplus/
+!/tests/
+/tests/*
+!/tests/*.py
+!/tests/*.sh
+__pycache__/
